@@ -1,0 +1,305 @@
+{
+    "Supermercados":[
+    {
+        "Supermercado1":[
+            {
+                "Nombre":"LIDL",
+                "Direccion": "Avenida Maria Pardo, 45, 50018, Zaragoza, Zaragoza",
+                "Localizacion":[ 
+                    "41.66434435612745 N",
+                    "-0.9066081059271467 W"
+                ],
+
+                "Productos":[
+                    {
+                        "Nombre":"Tomate Rosa",
+                        "Precio": "2,5",
+                        "UnidadMedida": "€/Kg",
+                        "Perecedero": true,
+                        "Oferta": "2,3",
+                        "PeriodoInicio":"15/02/2023",
+                        "PeriodoFin": "25/02/2023",
+                        "Stock": "100",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre": "Papel Cocina",
+                        "Precio": "1,05",
+                        "UnidadMedida": "€/Unidad",
+                        "Perecedero": false,
+                        "Oferta": "1",
+                        "PeriodoInicio": "15/02/2023",
+                        "PeriodoFin": "25/02/2023",
+                        "Stock":"250",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }                
+                ],
+
+                "ProductosSinOferta":[
+                    {
+                        "Nombre": "Leche Entera",
+                        "Precio": "0,87",
+                        "UnidadMedida":"€/litro",
+                        "Perecedero": true,
+                        "FechaEntrada":"14/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre": "Huevos",
+                        "Precio": "2",
+                        "UnidadMedida":"€/docena",
+                        "Perecedero": true,
+                        "FechaEntrada": "14/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+
+        "Supermercado2":[
+            {
+                "Nombre":"Mercadona",
+                "Direccion": "Avenida Europa, 208, 55007, Zaragoza, Zaragoza",
+                "Localizacion":[ 
+                    "41.64978917038017 N", 
+                    "-0.8977449143569901 W"
+                ],
+                "Productos":[
+                    {
+                        "Nombre": "Tomate Rosa",
+                        "Precio": "2,3",
+                        "UnidadMedida": "€/kg",
+                        "Perecedero": true,
+                        "Oferta": "2",
+                        "PeriodoInicio": "15/02/2023",
+                        "PeriodoFin":"21/02/2023",
+                        "Stock": "20",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+
+                    },
+                    {
+                        "Nombre": "Papel Cocina",
+                        "Precio": "1,2",
+                        "UnidadMedida": "€/unidad",
+                        "Perecedero": false,
+                        "Oferta": "1,1",
+                        "PeriodoInicio": "15/02/2023",
+                        "PeriodoFin": "21/02/2023",
+                        "Stock":"220",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }                
+                ],
+
+                "ProductosSinOferta":[
+                    {
+                        "Nombre":"Leche Entera",
+                        "Precio":"0.9",
+                        "UnidadMedida": "€/litro",
+                        "Perecedero": true,
+                        "FechaEntrada": "10/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre": "Huevos",
+                        "Precio": "1,95",
+                        "UnidadMedida": "€/docena",
+                        "Perecedero": true,
+                        "FechaEntrada": "18/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        
+        "Supermercado3":[
+            {
+                "Nombre":"Carrefour",
+                "Direccion": "Calle Gomez Castaña, 5, 50125, Zaragoza, Zaragoza",
+                "Localizacion":[
+                    "41.661636547894574 N",
+                    "-0.9122729808220413 W"
+                ],
+                "Productos":[
+                    {
+                        "Nombre": "Tomate Rosa",
+                        "Precio": "2,25",
+                        "UnidadMedida": "€/kg",
+                        "Perecedero": true,
+                        "Oferta": "1,9",
+                        "PeriodoInicio": "12/02/2023",
+                        "PeriodoFin": "15/02/2023",
+                        "Stock": "52",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+
+                    },
+                    {
+                        "Nombre": "Papel Cocina",
+                        "Precio": "1,3",
+                        "UnidadMedida":"€/unidad",
+                        "Perecedero": false,
+                        "Oferta": "1,15",
+                        "PeriodoInicio": "10/02/2023",
+                        "PeriodoFin":"25/02/2023",
+                        "Stock":"93",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }          
+                ],
+
+                "ProductosSinOferta":[
+                    {
+                        "Nombre":"Leche Entera",
+                        "Precio": "1,02",
+                        "UnidadMedida":"€/litro",
+                        "Perecedero": true,
+                        "FechaEntrada": "18/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre":"Huevos",
+                        "Precio": "2,1",
+                        "UnidadMedida":"€/docena",
+                        "Perecedero":true,
+                        "FechaEntrada": "20/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+
+        "Supermercado4":[
+            {
+                "Nombre":"Dia",
+                "Direccion": "Calle Mario Bross, 1, 52100, Zaragoza, Zaragoza",
+                "Localizacion":[
+                    "41.626216378189206 N",
+                    "-0.8769107872840743 W"
+                ],
+                "Productos":[
+                    {
+                        "Nombre": "Tomate Rosa",
+                        "Precio": "2,8",
+                        "UnidadMedida": "€/kg",
+                        "Perecedero": true,
+                        "Oferta": "2,4",
+                        "PeriodoInicio": "01/02/2023",
+                        "PeriodoFin": "27/02/2023",
+                        "Stock":"145",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre": "Papel Cocina",
+                        "Precio": "1,15",
+                        "UnidadMedida":"€/unidad",
+                        "Perecedero":false,
+                        "Oferta":"1",
+                        "PeriodoInicio":"01/02/2023",
+                        "PeriodoFin":"27/02/2023",
+                        "Stock": "96",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    }                
+                ],
+
+                "ProductosSinOferta":[
+                    {
+                        "Nombre": "Leche Entera",
+                        "Precio": "0,95",
+                        "UnidadMedida":"€/litro",
+                        "Perecedero":true,
+                        "FechaEntrada":"18/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]
+                    },
+                    {
+                        "Nombre":"Huevos",
+                        "Precio":"2,1",
+                        "UnidadMedida": "€/docena",
+                        "Perecedero": true,
+                        "FechaEntrada": "17/02/2023",
+                        "ProductoAdquirido": [
+                            {
+                                "0": "No",
+                                "1": "Si"
+                            }
+                        ]       
+                    }
+                ]
+            }
+        ]  
+    }
+]
+}
+

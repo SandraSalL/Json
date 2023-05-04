@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<Supermercado1>
+		<Nombre>LIDL</Nombre>
+		<Direccion>Avenida Maria Pardo, 45, 50018, Zaragoza, Zaragoza</Direccion>
+		<Localizacion>41.66434435612745 N</Localizacion>
+		<Localizacion>-0.9066081059271467 W</Localizacion>
+		<Productos>
+			<Nombre>Tomate Rosa</Nombre>
+			<Precio>2,5</Precio>
+			<UnidadMedida>€/Kg</UnidadMedida>
+			<Perecedero>true</Perecedero>
+			<Oferta>2,3</Oferta>
+			<PeriodoInicio>15/02/2023</PeriodoInicio>
+			<PeriodoFin>25/02/2023</PeriodoFin>
+			<Stock>100</Stock>
+			<ProductoAdquirido>
+				<element>No</element>
+				<element>Si</element>
+			</ProductoAdquirido>
+		</Productos>
+		<Productos>
+			<Nombre>Papel Cocina</Nombre>
+			<Precio>1,05</Precio>
+			<UnidadMedida>€/Unidad</UnidadMedida>
+			<Perecedero>false</Perecedero>
+			<Oferta>1</Oferta>
+			<PeriodoInicio>15/02/2023</PeriodoInicio>
+			<PeriodoFin>25/02/2023</PeriodoFin>
+			<Stock>250</Stock>
+			<ProductoAdquirido>
+				<element>No</element>
+				<element>Si</element>
+			</ProductoAdquirido>
+		</Productos>
+		<ProductosSinOferta>
+			<Nombre>Leche Entera</Nombre>
+			<Precio>0,87</Precio>
+			<UnidadMedida>€/litro</UnidadMedida>
+			<Perecedero>true</Perecedero>
+			<FechaEntrada>14/02/2023</FechaEntrada>
+			<ProductoAdquirido>
+				<element>No</element>
+				<element>Si</element>
+			</ProductoAdquirido>
+		</ProductosSinOferta>
+		<ProductosSinOferta>
+			<Nombre>Huevos</Nombre>
+			<Precio>2</Precio>
+			<UnidadMedida>€/docena</UnidadMedida>
+			<Perecedero>true</Perecedero>
+			<FechaEntrada>14/02/2023</FechaEntrada>
+			<ProductoAdquirido>
+				<element>No</element>
+				<element>Si</element>
+			</ProductoAdquirido>
+		</ProductosSinOferta>
+	</Supermercado1>
+</root>
